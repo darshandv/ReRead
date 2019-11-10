@@ -1,11 +1,16 @@
 # ReRead
 Web application to proofread documents and derive research-oriented insights. 
 
-Install all the dependencies using the below command in a virtualenv
+
+Install the required dependencies using the below command into a virtual environment
+
 `pip3 install -r requirements.txt`
 
+**OR**
+
+Below are the dependencies required for the application in detail. You can install each of them separately.
+
 ### Dependencies
-Below are the dependencies required for the application in detail
 
 **Sumy Summarizer**
 
@@ -39,7 +44,7 @@ To setup a ssl server you need a certificate and a key. Use a certificate from a
 + Clone the repository
 + Run `python3 manage.py makemigrations`
 + Run `python3 manage.py migrate`
-+ Run sslserver using `python manage.py runsslserver --certificate /path/to/certificate.crt --key /path/to/key.key` and navigate to [https://127.0.0.1:8000/]
++ Run sslserver using `python manage.py runsslserver --certificate /path/to/certificate.crt --key /path/to/key.key` and navigate to https://127.0.0.1:8000/
 
 
 ### Features
